@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap');
+
+:root {
+    --HeadingFont: Bebas Neue;
+    --SubHeadingFont: Fredoka One;
+    
+    --BackgroundColor: #3E4E50;
+    --HeadingColor: #FFD83C;
+    --GreyedText: #C2C2C2;
+    --PrimaryPink: #FF6970;
+    --SecondaryPink: #D7474D;
+}
+
+
+body {
+    background-color: #3E4E50;
+    margin-left : 3.5em;
+}
+
+h1{
+    color : var(--HeadingColor);
+    font-family : var(--HeadingFont);
+    font-size : 4em;
+    letter-spacing : 0.02em;
+}
+
+p{
+    color : var(--GreyedText);
+    font-family : var(--SubHeadingFont);
+}
+
+#BMINumber{
+    font-family : var(--SubHeadingFont);
+    color : white;
+    font-size : 1.5em;
+    letter-spacing : 0.02em;
+}
+
+
