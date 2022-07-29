@@ -18,10 +18,13 @@ body {
 }
 
 h1{
+    margin-top : 2em;
+    margin-bottom : 0.3em;
     color : var(--HeadingColor);
     font-family : var(--HeadingFont);
     font-size : 4em;
     letter-spacing : 0.02em;
+    
 }
 
 p{
@@ -29,11 +32,62 @@ p{
     font-family : var(--SubHeadingFont);
 }
 
-#BMINumber{
+#bmiNumber{
+    margin-top : 2em;
+    margin-left : 2em;
     font-family : var(--SubHeadingFont);
     color : white;
-    font-size : 1.5em;
+    font-size : 2em;
     letter-spacing : 0.02em;
 }
 
 
+#result{
+    margin-top : 0.5em;
+}
+
+.userField{
+    background-color : var(--SecondaryPink);
+    border : none;
+    border-radius : 0.3em;
+    margin : 0.4em;
+    font-family : var(--SubHeadingFont);
+    font-size : 1.6em;
+    padding : 0.3em;
+    color : white;
+    
+    width : 9em;
+    
+}
+
+.unitDropdown {
+    background-color: var(--SecondaryPink);
+    border: none;
+    border-radius: 0.3em;
+    font-family: var(--SubHeadingFont);
+    font-size: 1.6em;
+    padding: 0.3em;
+    color: white;
+}
+#calculateBtn {
+    background-color: var(--SecondaryPink);
+    border: none;
+    border-radius: 0.3em;
+    font-family: var(--SubHeadingFont);
+    font-size: 1.8em;
+    padding: 0.3em;
+    color: white;
+}
+::placeholder {
+    color : var(--GreyedText);
+    font-family : var(--SubHeadingFont)
+}
+
+#details {
+    background-color: var(--PrimaryPink);
+    width: fit-content;
+    float: right;
+    margin-right: 4em;
+    padding: 1.2em;
+    border-radius: 0.7em;
+}
