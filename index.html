@@ -3,28 +3,35 @@
     <title>BMI Calculator</title>
     <link rel="stylesheet" type="text/css" href="CSS/style.css" />
 </head>
-<body>
-    <h1>BMI CALCULATOR</h1>
-    <p class="description">AN OPEN-SOURCED, FREE BMI CALCULATOR <br /> FOR ALL THE FITNESS FREAKS OUT THERE!!!</p>
-    <div id="details">
-        <input class="userField" type="number" placeholder="Age" /> 
-        <br />
-        <input class="userField" type="number" placeholder="Weight" />
-        <select class="unitDropdown">
-            <option class="unit">kg</option>
-            <option class="unit">lbs</option>
-        </select>
-        <br />
-        <input class="userField" type="number" placeholder="Height" />
-        <select class="unitDropdown">
-            <option class="unit">cm</option>
-            <option class="unit">m</option>
-            <option class="unit">ft</option>
-        </select>
-        <br />
-        <button id="calculateBtn">CALCULATE</button>
+<body>  
+    <div id="Container">
+        <div>
+            <h1>BMI CALCULATOR</h1>
+            <p class="description">AN OPEN-SOURCED, FREE BMI CALCULATOR <br /> FOR ALL THE FITNESS FREAKS OUT THERE!!!</p>
+            <h3 id="bmiNumber">Your BMI is 21kg/m<sup>2</sup></h3>
+            <h1 id="result">YOU ARE UNDERWEIGHT</h1>
+        </div>
+        <div>
+            <div id="details">
+                <input class="userField" type="number" placeholder="Age" />
+                <br />
+                <input class="userField" type="number" placeholder="Weight" />
+                <select class="unitDropdown">
+                    <option class="unit">kg</option>
+                    <option class="unit">lbs</option>
+                </select>
+                <br />
+                <input class="userField" type="number" placeholder="Height" />
+                <select class="unitDropdown">
+                    <option class="unit">cm</option>
+                    <option class="unit">m</option>
+                    <option class="unit">ft</option>
+                </select>
+                <br />
+                <button id="calculateBtn">CALCULATE</button>
+            </div>
+        </div>
     </div>
-    <h3 id="bmiNumber">Your BMI is 21kg/m<sup>2</sup></h3>
-    <h1 id="result">YOU ARE UNDERWEIGHT</h1>
+
 </body>
 </html>

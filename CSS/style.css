@@ -77,17 +77,30 @@ p{
     font-size: 1.8em;
     padding: 0.3em;
     color: white;
+    margin-left: 2.5em;
+    margin-top: 0.4em;
+    margin-bottom: 0.15em;
 }
+    #calculateBtn:active {
+        background-color: #A3383C;
+    }
+    
+    
 ::placeholder {
     color : var(--GreyedText);
     font-family : var(--SubHeadingFont)
 }
-
+#Container{
+    display : flex;
+    justify-content : flex-start;
+    align-items :center;
+}
 #details {
     background-color: var(--PrimaryPink);
     width: fit-content;
     float: right;
-    margin-right: 4em;
+    margin-left : 12em;
+    margin-top : 4em;
     padding: 1.2em;
     border-radius: 0.7em;
 }
