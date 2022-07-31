@@ -14,7 +14,7 @@
 /*Properties [Things like color and font which remain same for desktop and mobile]*/
 body {
     background-color: #3E4E50;
-    
+    overflow : hidden;
 }
 h1 {
     color: var(--HeadingColor);
@@ -72,8 +72,6 @@ p {
 
 #details {
     background-color: var(--PrimaryPink);
-    padding: 1.2em;
-    border-radius: 0.7em;
 }
 /*Position for devices with width lower than 768px*/
 body {
@@ -84,13 +82,20 @@ body {
     display : block;
 }
 #details {
-    border-radius : 0em;
+    border-radius: 0em;
+    padding: 1em;
+}
+h1{
+    margin-bottom : 0.1em;
+}
+p{
+    margin-top : 0.1em;
+    margin-bottom : 0.1em;
 }
 
 
-
 /*Media Queries*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
     /*Position for devices with width higher than 768px*/
     body {
         margin-left: 3.5em;
@@ -127,6 +132,7 @@ body {
         float: right;
         margin-left: 12em;
         margin-top: 4em;
-        border-radius : 1em;
+        border-radius: 1.3em;
+        padding: 1.1em;
     }
 }
