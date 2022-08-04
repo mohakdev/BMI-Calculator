@@ -89,8 +89,7 @@ h1{
     margin-bottom : 0.1em;
 }
 p{
-    margin-top : 0.1em;
-    margin-bottom : 0.1em;
+    display : none;
 }
 
 
@@ -130,9 +129,12 @@ p{
     #details {
         width: fit-content;
         float: right;
-        margin-left: 12em;
+        margin-left: 15em;
         margin-top: 4em;
         border-radius: 1.3em;
         padding: 1.1em;
+    }
+    p{
+        display : block;
     }
 }

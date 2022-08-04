@@ -9,23 +9,23 @@
         <div>
             <h1>BMI CALCULATOR</h1>
             <p class="description">AN OPEN-SOURCED, FREE BMI CALCULATOR <br /> FOR ALL THE FITNESS FREAKS OUT THERE!!!</p>
-            <h3 id="bmiNumber">Your BMI is 2kg/m<sup>2</sup></h3>
-            <h1 id="result">YOU ARE UNDERWEIGHT</h1>
+            <h3 id="bmiNumber"> <sup id="MeterSquare"></sup> </h3>
+            <h1 id="result"></h1>
         </div>
         <div>
             <div id="details">
-                <input class="userField" type="number" placeholder="Age" />
+                <input id="ageField"class="userField" type="number" placeholder="Age" />
                 <br />
-                <input class="userField" type="number" placeholder="Weight" />
-                <select class="unitDropdown">
+                <input id="weightField" class="userField" type="number" placeholder="Weight" />
+                <select id="weightUnit" class="unitDropdown">
                     <option class="unit">kg</option>
                     <option class="unit">lbs</option>
                 </select>
                 <br />
-                <input class="userField" type="number" placeholder="Height" />
-                <select class="unitDropdown">
-                    <option class="unit">cm</option>
+                <input id="heightField" class="userField" type="number" placeholder="Height" />
+                <select id="heightUnit" class="unitDropdown">
                     <option class="unit">m</option>
+                    <option class="unit">cm</option>
                     <option class="unit">ft</option>
                 </select>
                 <br />
@@ -33,6 +33,6 @@
             </div>
         </div>
     </div>
-
+    <script src="Javascript/Main.js"></script>
 </body>
 </html>
