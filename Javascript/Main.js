@@ -22,7 +22,7 @@ calculateBtn.onclick = function ()
     let Bmi = calculateBmi(height, weight);
 
     const fitnessResultElement = document.getElementById("result");
-    const fitnessResult = calculateFitness(Bmi);
+    let fitnessResult = calculateFitness(Bmi);
     fitnessResultElement.innerHTML = fitnessResult;
     
     const bmiDisplay = document.getElementById("bmiNumber");
@@ -49,7 +49,9 @@ function convertHeight(unit, value) {
         return value / 100;
     }
     if (unit === 'ft') {
-        return value / 3.281;
+        let numbString = value.toString();
+        let numbArray = numbString.split(".");
+        return (numbArray[0] * 0.3048) + (numbArray[1] * 0.0254);
     }
 }
 
